@@ -1,0 +1,1 @@
+﻿wsl.exe --mount --vhd "C:\tkwsl\work-btrfs.vhdx" --bare

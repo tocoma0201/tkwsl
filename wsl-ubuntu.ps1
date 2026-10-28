@@ -2,7 +2,7 @@
 $distro  = "Ubuntu-24.04"
 
 # Btrfs VHDX を WSL に接続
-wsl.exe --mount --vhd "$workVhd" --bare *> $null
+#wsl.exe --mount --vhd "$workVhd" --bare *> $null
 
 # WSL を起動
 wsl.exe -d $distro -u root -- /bin/true *> $null
